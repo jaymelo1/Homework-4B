@@ -36,11 +36,13 @@ section,p{
 nav{
     background-color: lightsteelblue;
 }
-nav ul{
+nav ul{display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
+nav ul li:hover {background-color: lightskyblue;}
 nav li{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -53,3 +55,5 @@ nav li a{
     text-decoration: none;
     color: black;
 }
+.flex{display: flex;align-items: center;justify-content: center;}
+.center{display: block;margin-left: auto;margin-right: auto;width:50%;}
